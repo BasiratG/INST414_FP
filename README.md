@@ -1,6 +1,4 @@
-# INST414_FP
-The Impact of Social Media Usage on Adolescent Mental Health: A Computational Approach
-Project Overview:
+Project Overview: The Impact of Social Media Usage on Adolescent Mental Health: A Computational Approach
 The project explores the relationship between social media usage and adolescent mental health, focusing on how time spent on social media platforms correlates with stress levels. Adolescents are deeply integrated into the digital world, with platforms like Instagram, Tiktok, and Twitter shaping their social experiences and encounters. While these platforms provide significant opportunities for socialization, they also have the potential to contribute to mental health challenges such as anxiety, depression, stress, and low self-esteem.
 In this study, we aim to leverage computational social science and natural language processing(NLP) techniques to analyze the impact of social media usage on adolescent mental health. By examining social media activity and sentiment trends, this research will shed light on how digital behaviors relate to self-reported mental health symptoms, particularly focusing on stress, anxiety, and depression.
 Research Question:
