@@ -11,7 +11,7 @@ Methodology:
 Data Collection: We will use a dataset containing self-reported stress scores, hours spent on social media, and other demographic information about adolescents.
 Data Preprocessing: The dataset will be cleaned by removing missing values and duplicates. The Gender column will be encoded numerically for analysis.
 Exploratory Data Analysis (EDA): Visualizations, including scatter plots, histograms, and heatmaps, will be created to explore trends in social media usage and stress levels.
-Statistical Analysis: Pearson's correlation will be used to measure the relationship between time spent on social media and stress levels. Additional statistical tests may be performed to further analyze gender and other variables.
+Statistical Analysis: Pearson's correlation will measure the relationship between time spent on social media and stress levels. Additional statistical tests may be performed to further analyze gender and other variables.
 Setup and Usage:
 Before running the project, ensure that you have the following installed:
 Python 3.x (preferably Python 3.7+)
