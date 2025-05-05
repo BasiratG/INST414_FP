@@ -1,6 +1,6 @@
 import pandas as pd
 
-def load_and_clean_data(filepath):
+def load_and_clean_data(mental_health_analyis (1).csv):
     """
     Loads the mental health dataset and performs basic cleaning:
     - Drops missing values
@@ -13,7 +13,7 @@ def load_and_clean_data(filepath):
     Returns:
     DataFrame: Cleaned pandas DataFrame
     """
-    df = pd.read_csv(filepath)
+    df = pd.read_csv(mental_health_analyis (1).csv)
 
     # Drop missing values
     df = df.dropna()
