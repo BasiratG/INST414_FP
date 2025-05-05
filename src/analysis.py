@@ -16,12 +16,12 @@ def run_regression(df):
     if not all(col in df.columns for col in required_cols):
         raise ValueError(f"Missing required columns. Expected: {required_cols}")
     
-    # Convert categorical variable 'Academic_Performance' into dummy variables
-    df_encoded = pd.get_dummies(df, columns=['Academic_Performance'], drop_first=True)
+    # Convert categorical variable 'Gender' and 'Academic_Performance' into dummy variables
+    df_encoded = pd.get_dummies(df, columns=['Gender', 'Academic_Performance'], drop_first=True)
     
     # Define predictors (X) and outcome (y)
-    X = df_encoded[['Social_Media_Hours', 'Gender'] + 
-                   [col for col in df_encoded.columns if col.startswith('Academic_Performance_')]]
+    X = df_encoded[['Social_Media_Hours'] + 
+                   [col for col in df_encoded.columns if col.startswith('Gender_') or col.startswith('Academic_Performance_')]]
     y = df_encoded['Survey_Stress_Score']
     
     # Add constant to model (for intercept)
