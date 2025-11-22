@@ -8,5 +8,5 @@ To run this project, users should have Python 3.x installed (Python 3.7 or newer
 
 Before running the project, ensure that you have Python 3.x (preferably Python 3.7+) and the required Python libraries installed using the command pip install -r requirements.txt. Once the environment is set up, users can run the analysis scripts directly or adapt them within Jupyter Notebooks for exploration.
 
-This repository is part of a final project presented using the UMD Fearlessly Forward template. The project is documented on GitHub and has been added to the project portfolio section of the contributor’s LinkedIn and résumé. The portfolio includes a final presentation recording, presentation slides, a written report, and this repository, making the full project accessible to researchers, educators, and employers.
+
 
